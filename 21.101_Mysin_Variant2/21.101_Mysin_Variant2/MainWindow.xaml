@@ -1,0 +1,20 @@
+﻿<Window x:Class="_21._101_Mysin_Variant2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_21._101_Mysin_Variant2"
+        mc:Ignorable="d"
+        Title="Mysin_Variant2" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="297,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="470"/>
+        <Label Content="Введите предложение (на английском языке):" HorizontalAlignment="Left" Margin="39,111,0,0" VerticalAlignment="Top"/>
+        <Label Content="Мысин Вариант №2" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="26"/>
+        <Label Content="Вводится строка-предложение на английском языке. Подсчитать количество содержащихся в строке гласных букв,&#xD;&#xA; а также вывести самое длинное слово предложения." HorizontalAlignment="Left" Margin="21,64,0,0" VerticalAlignment="Top"/>
+        <Label Content="Всего гласных букв:" HorizontalAlignment="Left" Margin="52,217,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="l_num" Content="" HorizontalAlignment="Left" Margin="175,217,0,0" VerticalAlignment="Top"/>
+        <Label Content="Самое длинное слово:" HorizontalAlignment="Left" Margin="52,265,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="l_word" Content="" HorizontalAlignment="Left" Margin="186,265,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Start" Content="Запуск" HorizontalAlignment="Left" Margin="556,327,0,0" VerticalAlignment="Top" Height="67" Width="180" FontSize="24" Click="Start_Click"/>
+    </Grid>
+</Window>
